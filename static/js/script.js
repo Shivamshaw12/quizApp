@@ -17,7 +17,7 @@ document.querySelectorAll(".btn")[1].addEventListener("click", () => {
     clickcount++;
     if(clickcount==2)
     {
-        question.innerHTML="Question 2";
+        question_num.innerHTML="Question 2";
         question.innerHTML="Which state produces maximum soybean?";
         option1.innerHTML="Madhya Pradesh";
         option2.innerHTML="Uttar Pradesh";
@@ -34,7 +34,7 @@ document.querySelectorAll(".btn")[1].addEventListener("click", () => {
         }
     }
     else if(clickcount==3){
-        question.innerHTML="Question 3";
+        question_num.innerHTML="Question 3";
         question.innerHTML="Which country operationalized world’s largest radio telescope?";
         option1.innerHTML="USA";
         option2.innerHTML="China";
@@ -52,7 +52,7 @@ document.querySelectorAll(".btn")[1].addEventListener("click", () => {
         
     }
     else if(clickcount==4){
-        question.innerHTML="Question 4";
+        question_num.innerHTML="Question 4";
         question.innerHTML="Which of the following is the capital of Arunachal Pradesh?";
         option1.innerHTML="Itanagar";
         option2.innerHTML="Dispur";
@@ -67,7 +67,7 @@ document.querySelectorAll(".btn")[1].addEventListener("click", () => {
         alert("incorrect");
     }
     else if(clickcount==5){
-        question.innerHTML="Question 5";
+        question_num.innerHTML="Question 5";
         question.innerHTML="Which one among the following radiations carries maximum energy?";
         option1.innerHTML="Ultraviolet rays";
         option2.innerHTML="Gamma rays";
