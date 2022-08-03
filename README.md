@@ -10,4 +10,5 @@ Instructions to run this project on yourn local machine-
 3.run python manage.py migrate.  
 4.run python manage.py runserver.  
 
-live project- http://quizzer.pythonanywhere.com/
+live project- 
+https://quizzerapp1.herokuapp.com/
