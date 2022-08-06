@@ -66,7 +66,7 @@ def signupUser(request):
         rpassword=request.POST.get('rpassword')
         if(password==rpassword):
             user = User.objects.create_user(username,'',password)
-            players = player(username=username,points='5')
+            players = player(username=username,points='0')
             players.save()
             return redirect('/login')
         else:
