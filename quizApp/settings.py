@@ -23,7 +23,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-z0(=)jk^dyv5^$5lqg*t$6j=!0v@4d)&43-7w)$4-4dj+!mr3!'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['quizzerapp1.herokuapp.com']
 
@@ -136,7 +136,7 @@ STATIC_URL = '/static/'
 #     '/var/www/static/',
 # ]
 
-STATIC_ROOT = BASE_DIR / 'staticfiles'
+STATIC_ROOT = BASE_DIR / 'static'
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
